@@ -1,0 +1,90 @@
+>> x = 1 + 1 * 2
+>>> y = (1 + 1) * 2
+>>> z = 1 + ( 1 * 2 )
+>>> a = 1 + 1 * 2 / 2
+>>> b = (1 + 1 * 2 ) /  2
+>>> print (x)
+3
+>>> print (y)
+4
+>>> print (z)
+3
+>>> print (a)
+2.0
+>>> print (b)
+1.5
+>>>
+>>>
+>>> even_or_odd = int(input("Enter a number: "))
+Enter a number: 4
+>>> print(" even")
+ even
+>>>
+>>>
+>>>  even_or_odd = int(input("Enter a number: "))
+  File "<stdin>", line 1
+    even_or_odd = int(input("Enter a number: "))
+IndentationError: unexpected indent
+>>>
+>>>  even_or_odd = int(input("Enter a number: "))
+  File "<stdin>", line 1
+    even_or_odd = int(input("Enter a number: "))
+IndentationError: unexpected indent
+>>>
+>>> even_or_odd = int(input("Enter a number: "))
+Enter a number: 8
+>>> (even_or_odd % 2) == 0:
+  File "<stdin>", line 1
+    (even_or_odd % 2) == 0:
+                           ^
+SyntaxError: invalid syntax
+>>> print( Even")
+  File "<stdin>", line 1
+    print( Even")
+                 ^
+SyntaxError: EOL while scanning string literal
+>>> print(" odd ")
+ odd
+>>> even_or_odd = int(input("Enter a number: "))
+Enter a number: 8
+>>> (even_or_odd % 2) == 0:
+  File "<stdin>", line 1
+    (even_or_odd % 2) == 0:
+                           ^
+SyntaxError: invalid syntax
+>>> print("even")
+even
+>>> print(" odd")
+ odd
+>>>
+>>>
+>>> a = float(input('Enter first side: '))
+Enter first side: b = float(input('Enter second side: '))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: "b = float(input('Enter second side: '))"
+>>> c = float(input('Enter third side: '))
+Enter third side:
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: ''
+>>> # calculate the semi-perimeter
+>>> s = (a + b + c) / 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'c' is not defined
+>>> ^S^S>^S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
